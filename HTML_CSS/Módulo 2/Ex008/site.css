@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(rgb(5, 38, 1), rgb(7, 114, 12));
+   
+}
+header{
+    color: aliceblue;
+}
+h1{
+   
+    text-align: center;
+}
+h2{
+    background-color: forestgreen;
+}
+h4{
+    text-align: center;
+}
+
+nav > a{
+            padding: 3px;
+            color: rgb(244, 245, 253);
+            font-weight:bold ;
+            margin-left: 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.5s;
+  
+}
+nav > a:hover{
+    background-color: darkgreen;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+     
+    
+}
+main{
+    background-color: rgb(209, 250, 146);
+    margin: 0px;
+   
+    
+}
+article > p{
+   text-align: left;
+
+}
+ #res{
+    height: 400px;
+    width: 100%;
+    margin: auto;
+ }
+ iframe{
+    margin: auto;
+ }
+
+#cont{
+   background-color: darkgreen; 
+   text-align: center;
+   text-align:justify;
+   border-radius: 30px;
+   min-width: 300px;
+   max-width: 1000px;
+  
+}
+
+#more{
+    color: rgb(244, 245, 253);
+    text-decoration: none;
+}
+#ya{
+    color: aliceblue;
+    background-color: darkgreen;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+footer{
+    margin: auto;
+    background-color: rgb(1, 26, 1);
+    text-align: center;
+    color: aliceblue;
+}

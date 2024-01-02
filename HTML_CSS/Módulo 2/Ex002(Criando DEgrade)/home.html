@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Degrade</title>
+    
+    <style>
+   /*Configuração global(*)
+        *{
+
+        margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+    
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../pais.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header {
+
+font-size: 15pt;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+background: rgb(17, 16, 16);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 90;
+}
+
+section{
+   
+    
+
+    
+    
+}
+input, select, textarea{
+    
+}*/
+
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <nav class="navigation">
+            <a href="index2.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Cadastro</a>
+            <a href="contacts.html">Contacts</a>
+         
+    </header>
+    <div>
+      <form action="emprego">
+            <br>
+            <br>
+        <h1>Ficha de Inscrição</h1>
+        <br>
+         Nome: <br> <input type="text"  name="nome" id="nome">  <br> <br>
+        Apelido: <br><input type="text" name="subnome" id="nome">
+    
+       <p>Sexo: </p> 
+       <label><input type="radio" name="sexo" id="m">Masculino</label> <br> 
+        <label><input type="radio" name="sexo" id="f">Femenino</label>
+       
+       <br>
+    
+   
+    Assinale abaixo os programas de computador que você domina: <br>
+        <br><input type="checkbox" name="prog" id="w"> Word
+        <br><input type="checkbox" name="prog" id="e"> Excel
+        <br><input type="checkbox" name="prog" id="a"> Access
+        <br><input type="checkbox" name="prog" id="p"> Power Point
+        
+        <p>Cargo:</p>
+        <select id="car" name="cargo">
+            <option value="a">Analista de Sistemas
+            <option value="g">Gerente
+            <option value="p">Programdor em Javascript
+            <option value="f"> Full-Stack
+                <br>
+        </select>
+        <div>Por que Deseja Trabalhar em nossa Empresa?
+         <br><textarea name="Com" id="commen" cols="10" rows="5">Escreva aqui o seu comentário</textarea> <br>
+         <br><button id="env"   value="Enviar" onclick="Enviar()">Enviar</button>  <br> <br>
+        <button id="res" type="reset" value="Resetar" onclick="Resetar()">Limpar Campos</button>
+            
+        </p>
+    </div>
+        
+   
+        
+       </form>
+  
+
+</body>
+</html>

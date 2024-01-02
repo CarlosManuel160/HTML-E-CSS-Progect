@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+    /*height: 100%;*/
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+      
+background-attachment: fixed; /*Fixação de texto*/
+padding: 1rem;
+background-image: url(../ae.jpg);
+color:gold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(45deg, rgb(12, 12, 12), rgb(84, 85, 84), rgb(12, 12, 12), rgb(104, 99, 104));
+    width: 500px;
+    margin: auto;
+
+  
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+header{
+    text-align: right;
+    padding: 10px 0;
+    font-size: 15pt;
+position: fixed;
+color: gold;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+background-image: linear-gradient(45deg, rgb(19, 19, 19), rgb(105, 108, 114),  rgb(16, 16, 16), rgb(109, 109, 117) );
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 90;
+}
+
+h1{
+    color: rgb(233, 245, 233);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18); /*Sombra no texto*/
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(26, 25, 24);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+  
+  }
+  .navigation a:hover{
+    color: blanchedalmond;
+  }
+
+#car{
+    padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, rgb(12, 12, 12), rgb(84, 85, 84), rgb(12, 12, 12), rgb(104, 99, 104));
+  color: gold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 100%;
+
+  }
+  #nome{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: gold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+  
+  }
+  #commen{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: gold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  #env{
+
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(101, 107, 107);
+    color: gold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  #res{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(110, 106, 106);
+    color: gold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+  }
