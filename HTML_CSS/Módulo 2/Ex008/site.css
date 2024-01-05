@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(rgb(5, 38, 1), rgb(7, 114, 12));
-   
+    
+           background-attachment: scroll;
 }
 header{
     color: aliceblue;
